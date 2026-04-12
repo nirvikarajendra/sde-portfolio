@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nirvika Rajendra — Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">NR<span>.dev</span></div>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" onclick="toggleMenu()">Home</a>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#skills" onclick="toggleMenu()">Skills</a>
+  <a href="#experience" onclick="toggleMenu()">Experience</a>
+  <a href="#projects" onclick="toggleMenu()">Projects</a>
+  <a href="#education" onclick="toggleMenu()">Education</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="home" style="max-width:100%; padding:0;">
+  <div class="hero-inner" style="padding-top:120px; padding-bottom:80px;">
+    <div class="hero-tag">Software Engineer</div>
+    <div class="hero-name">
+      Nirvika<br>
+      <span class="line2">Rajendra</span>
+    </div>
+    <div class="hero-role">
+      Backend Systems · <span class="highlight">REST APIs</span> · Cloud · Fintech
+    </div>
+    <p class="hero-desc">
+      2.5+ years building scalable backend systems, microservices, and data workflows for financial and data-intensive platforms. Python · .NET Core · Node.js · AWS.
+    </p>
+    <div class="hero-opt-badge">
+      <span class="dot"></span>
+      Available for OPT Employment — STEM Extension Eligible
+    </div>
+    <div class="hero-buttons">
+      <a href="Nirvika Rajendra.pdf" target="_blank" class="btn-primary">Download Resume</a>
+      <a href="#contact" class="btn-secondary">Get In Touch</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://www.linkedin.com/in/nirvika-rajendra-70555b2b2/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/nirvikarajendra" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:nirvikarajendra16@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">// 01 — about</div>
+  <h2>Who I <span class="accent">Am</span></h2>
+  <div class="about-grid fade-in">
+    <div class="about-text">
+      <p>I'm a Software Engineer with <strong>2.5+ years of experience</strong> building high-performance backend systems for financial and data-intensive platforms. My core strength is in backend engineering — scalable REST APIs, microservices architecture, and cloud deployments that handle real-world scale.</p>
+      <p>At LTIMindtree, I worked on a core banking platform for an Australian fintech client Credit Corp Group(CCG) — integrating payment APIs, building transaction workflows, and designing microservices that reduced security risks by <strong>70%</strong> and improved query performance by <strong>45%</strong>.</p>
+      <p>Completed my Master's in Data Science at UMBC (GPA <strong>3.9/4.0</strong>), where I also built automation pipelines processing <strong>34,000+ records</strong> on AWS. Actively seeking full-time backend SDE roles — eligible for <strong>OPT with STEM extension</strong>.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-card">
+        <div class="stat-num">2.5+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">45%</div>
+        <div class="stat-label">Query Speed Gain</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">34K+</div>
+        <div class="stat-label">Records Automated</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">3.9</div>
+        <div class="stat-label">GPA at UMBC</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label">// 02 — skills</div>
+  <h2>Tech <span class="accent">Stack</span></h2>
+
+  <div class="skill-group fade-in">
+    <div class="skill-group-title">Languages & Frameworks</div>
+    <div class="skill-tags">
+      <span class="tag hot">Python</span>
+      <span class="tag hot">C# / .NET Core</span>
+      <span class="tag hot">Node.js</span>
+      <span class="tag hot">JavaScript</span>
+      <span class="tag">FastAPI</span>
+      <span class="tag">Express.js</span>
+      <span class="tag">REST APIs</span>
+      <span class="tag">GraphQL</span>
+      <span class="tag">ASP.NET Core Web API</span>
+    </div>
+  </div>
+
+  <div class="skill-group fade-in">
+    <div class="skill-group-title">Backend & System Design</div>
+    <div class="skill-tags">
+      <span class="tag hot">Microservices Architecture</span>
+      <span class="tag hot">Distributed Systems</span>
+      <span class="tag">High-Throughput Workflows</span>
+      <span class="tag">JWT Authentication</span>
+      <span class="tag">Async / Sync APIs</span>
+      <span class="tag">Structured Logging</span>
+      <span class="tag">Observability</span>
+      <span class="tag">Performance Optimization</span>
+    </div>
+  </div>
+
+  <div class="skill-group fade-in">
+    <div class="skill-group-title">Databases</div>
+    <div class="skill-tags">
+      <span class="tag hot">SQL Server (MSSQL)</span>
+      <span class="tag hot">PostgreSQL</span>
+      <span class="tag">MongoDB</span>
+      <span class="tag">Redis</span>
+      <span class="tag">Pinecone</span>
+      <span class="tag">FAISS</span>
+      <span class="tag">Entity Framework Core</span>
+    </div>
+  </div>
+
+  <div class="skill-group fade-in">
+    <div class="skill-group-title">Cloud & DevOps</div>
+    <div class="skill-tags">
+      <span class="tag hot">AWS</span>
+      <span class="tag hot">Docker</span>
+      <span class="tag hot">CI/CD Pipelines</span>
+      <span class="tag">Azure / Azure DevOps</span>
+      <span class="tag">GitHub Actions</span>
+      <span class="tag">Octopus Deploy</span>
+      <span class="tag">Git</span>
+    </div>
+  </div>
+
+  <div class="skill-group fade-in">
+    <div class="skill-group-title">Engineering Practices</div>
+    <div class="skill-tags">
+      <span class="tag">Unit & Integration Testing</span>
+      <span class="tag">NUnit / Postman</span>
+      <span class="tag">Agile / Scrum</span>
+      <span class="tag">Code Reviews</span>
+      <span class="tag">Error Handling</span>
+      <span class="tag">Jira / TFS</span>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-label">// 03 — experience</div>
+  <h2>Work <span class="accent">History</span></h2>
+  <div class="timeline">
+
+    <div class="timeline-item fade-in">
+      <div class="timeline-dot"></div>
+      <div class="exp-card">
+        <div class="exp-header">
+          <div class="exp-title">Digital Repository Intern</div>
+          <div class="exp-date">Jun 2024 – Present</div>
+        </div>
+        <div class="exp-company">University of Maryland, Baltimore County — Remote</div>
+        <ul>
+          <li>Designed <strong>Python automation pipelines</strong> processing 34,000+ scholarly records, reducing manual effort by <strong>70%</strong> and ensuring high data reliability.</li>
+          <li>Deployed resilient, scalable services on <strong>AWS with Docker and CI/CD pipelines</strong>, improving throughput by <strong>40%</strong>.</li>
+          <li>Applied AI-assisted workflows for data cleaning, error handling, and process optimization across large-scale datasets.</li>
+          <li>Maintained observability and data integrity across pipeline stages to support institutional reporting.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item fade-in">
+      <div class="timeline-dot"></div>
+      <div class="exp-card">
+        <div class="exp-header">
+          <div class="exp-title">Software Engineer</div>
+          <div class="exp-date">Aug 2021 – Nov 2023</div>
+        </div>
+        <div class="exp-company">LTIMindtree · Client: Credit Corp Group, Australia — Bengaluru, India</div>
+        <ul>
+          <li>Built high-performance <strong>.NET Core backend services</strong> for a core banking platform handling high-volume transactions, payment workflows, and financial ledger operations.</li>
+          <li>Integrated <strong>Episode Six APIs</strong> for card issuance, transaction authorization, settlement, reconciliation, and interest accrual logic.</li>
+          <li>Designed secure <strong>microservices and REST APIs</strong> with optimized SQL Server queries — improved execution time by <strong>45%</strong>, reduced security vulnerabilities by <strong>70%</strong>.</li>
+          <li>Built <strong>CI/CD pipelines</strong> with Octopus Deploy and Azure DevOps, enabling <strong>zero-downtime biweekly releases</strong> and cutting deployment time by <strong>40%</strong>.</li>
+          <li>Implemented <strong>JWT authentication</strong>, structured logging, monitoring pipelines, and production support for fault-tolerant services.</li>
+          <li>Executed <strong>unit and integration testing</strong> with NUnit and Postman, increasing test coverage and reliability by <strong>40%</strong>.</li>
+          <li>Delivered consistently in <strong>Agile/Scrum</strong> with 100% on-time sprint completion across 2+ years.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">// 04 — projects</div>
+  <h2>What I've <span class="accent">Built</span></h2>
+  <div class="projects-grid">
+
+    <div class="proj-card fade-in">
+      <div class="proj-type">Backend · Full-Stack</div>
+      <div class="proj-title">Job Application Tracker</div>
+      <div class="proj-desc">Full-stack job tracking platform with GitHub OAuth authentication, multi-user access, real-time status filtering, and a live stats dashboard with color-coded pipeline visibility.</div>
+      <div class="proj-stack">
+        <span class="stack-tag">Node.js</span>
+        <span class="stack-tag">Express.js</span>
+        <span class="stack-tag">MongoDB</span>
+        <span class="stack-tag">GitHub OAuth</span>
+        <span class="stack-tag">Render</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://job-tracker-gpop.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        <a href="https://github.com/nirvikarajendra/Job-Tracker" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="proj-card fade-in">
+      <div class="proj-type">Backend · API</div>
+      <div class="proj-title">Personal Finance Tracker</div>
+      <div class="proj-desc">Secure backend platform with JWT authentication, relational schema for income/expense tracking, containerized with Docker, and CI/CD via GitHub Actions. Real-time spending dashboards.</div>
+      <div class="proj-stack">
+        <span class="stack-tag">FastAPI</span>
+        <span class="stack-tag">PostgreSQL</span>
+        <span class="stack-tag">Docker</span>
+        <span class="stack-tag">GitHub Actions</span>
+        <span class="stack-tag">JWT</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://finance-tracker-app-12.streamlit.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        <a href="https://github.com/nirvikarajendra/Finance-Tracker-App" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="proj-card fade-in">
+      <div class="proj-type">Data Science · ML</div>
+      <div class="proj-title">Student Start-up Success Analysis</div>
+      <div class="proj-desc">Analyzed 2,100+ student-led start-ups across 40 institutions. Feature engineering, EDA, predictive modeling with Scikit-learn, and an interactive Streamlit dashboard for mentorship decisions.</div>
+      <div class="proj-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">Pandas</span>
+        <span class="stack-tag">Scikit-learn</span>
+        <span class="stack-tag">Streamlit</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://umbc-data606-capstone-nirvika-rajendra-student-startup-succcess.streamlit.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+        <a href="https://github.com/nirvikarajendra/UMBC-DATA606-Capstone" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="proj-card fade-in">
+      <div class="proj-type">Big Data · Analytics</div>
+      <div class="proj-title">LinkedIn Job Market Analysis</div>
+      <div class="proj-desc">Processed 1.3M+ job listings using Apache Spark and Hive to extract labor market trends. Created Power BI dashboards guiding 100+ HR managers in hiring strategy.</div>
+      <div class="proj-stack">
+        <span class="stack-tag">Apache Spark</span>
+        <span class="stack-tag">Hive</span>
+        <span class="stack-tag">Power BI</span>
+        <span class="stack-tag">Python</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/nirvikarajendra/LinkedIn-Job-Market-Analysis" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="proj-card fade-in">
+      <div class="proj-type">Fintech · Analytics</div>
+      <div class="proj-title">Portfolio & Volatility Modelling</div>
+      <div class="proj-desc">Modeled financial risk and returns using statistical analysis and feature engineering. Built interactive Gradio dashboards for real-time portfolio performance and market risk evaluation.</div>
+      <div class="proj-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">Gradio</span>
+        <span class="stack-tag">Statistics</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/nirvikarajendra/Portfolio-Analysis-and-Volatility-Prediction" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <div class="proj-card fade-in">
+      <div class="proj-type">ML · Fintech</div>
+      <div class="proj-title">Credit Card Fraud Detection</div>
+      <div class="proj-desc">EDA on 284K+ transactions to identify fraud patterns. Handled class imbalance with SMOTE and visualized detection trends. Strong domain overlap with financial backend work.</div>
+      <div class="proj-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">Pandas</span>
+        <span class="stack-tag">SMOTE</span>
+        <span class="stack-tag">Scikit-learn</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/nirvikarajendra/Credit-Card-Fraud-Detection" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-label">// 05 — education</div>
+  <h2>Academic <span class="accent">Background</span></h2>
+  <div class="edu-grid">
+
+    <div class="edu-card fade-in">
+      <div>
+        <div class="edu-degree">Master of Professional Studies in Data Science</div>
+        <div class="edu-school">University of Maryland, Baltimore County · Jan 2024 – Dec 2025</div>
+        <div class="edu-detail">Coursework: Data Management, Big Data & Platforms, Machine Learning, Financial Data Science, Project Management.<br>
+        Capstone: Student start-up success prediction using Python, Scikit-learn & Streamlit.</div>
+      </div>
+      <div>
+        <div class="edu-gpa">3.9</div>
+        <div class="edu-gpa-label">GPA / 4.0</div>
+      </div>
+    </div>
+
+    <div class="edu-card fade-in">
+      <div>
+        <div class="edu-degree">Bachelor of Engineering in Computer Science</div>
+        <div class="edu-school">Dayananda Sagar Academy of Technology & Management, VTU · Aug 2017 – Jul 2021</div>
+        <div class="edu-detail">Foundations in DSA, OOP, Software Engineering, Cloud Computing, DBMS.<br>
+        Published: <em>Computer Vision Based Mouse Control Using Object Detection</em> —
+        <a href="https://www.ijrpr.com/uploads/V2ISSUE6/IJRPR517.pdf" target="_blank" style="color:var(--accent);">View Paper</a></div>
+      </div>
+      <div>
+        <div class="edu-gpa">8.72</div>
+        <div class="edu-gpa-label">CGPA / 10</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="section-label">// 06 — certifications</div>
+  <h2>Certs & <span class="accent">Learning</span></h2>
+  <div class="cert-grid">
+    <div class="cert-card fade-in">
+      <div class="cert-name">AZ-900: Microsoft Azure Fundamentals</div>
+      <div class="cert-issuer">Udemy</div>
+      <div class="cert-date">Oct 2025</div>
+      <a href="https://www.udemy.com/certificate/UC-193fd455-b1f4-4124-add8-f750ede69d8c/" target="_blank" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+    </div>
+    <div class="cert-card fade-in">
+      <div class="cert-name">SQL for Data Science</div>
+      <div class="cert-issuer">Coursera</div>
+      <div class="cert-date">2023</div>
+      <a href="https://www.coursera.org/account/accomplishments/verify/GHB97M46E3YV" target="_blank" class="cert-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label">// 07 — contact</div>
+  <h2>Let's <span class="accent">Connect</span></h2>
+  <p class="contact-sub">Open to full-time backend SDE roles in the US. Available immediately on OPT with STEM extension eligibility. Response time: under 24 hours.</p>
+  <div class="contact-grid">
+    <a href="mailto:nirvikarajendra16@gmail.com" class="contact-item">
+      <i class="fa-solid fa-envelope"></i> nirvikarajendra16@gmail.com
+    </a>
+    <a href="https://www.linkedin.com/in/nirvika-rajendra-70555b2b2/" target="_blank" class="contact-item">
+      <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+    </a>
+    <a href="https://github.com/nirvikarajendra" target="_blank" class="contact-item">
+      <i class="fa-brands fa-github"></i> GitHub
+    </a>
+    <a href="tel:+16674190681" class="contact-item">
+      <i class="fa-solid fa-phone"></i> +1 (667) 419-0681
+    </a>
+  </div>
+  <div class="footer-line">Built by Nirvika Rajendra · 2026 · Backend Engineer · OPT Available</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
